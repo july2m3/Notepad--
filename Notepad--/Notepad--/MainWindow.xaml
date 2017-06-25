@@ -11,13 +11,12 @@
         <!--Menu Bar-->
         <Menu DockPanel.Dock="Top" Background="Black" Foreground="White">
 
-            <!--File Menu bar: New, Open, Save-->
-            <MenuItem Header="File">
+            <!--File Menu bar: New, Open, Save //<MenuItem Header="File"> -->
                 <MenuItem x:Name="fileMenuNew" Header="New" Click="fileMenuNew_Click" InputGestureText="Ctrl+N" />
                 <MenuItem x:Name="fileMenuOpen" Header="Open" Click="fileMenuOpen_Click" InputGestureText="Ctrl+O" />
                 <MenuItem x:Name="fileMenuSave" Header="Save" Click="fileMenuSave_Click" InputGestureText="Ctrl+S" />
                 <MenuItem x:Name="fileMenuClose" Header="Close" Click="fileMenuClose_Click" InputGestureText="Ctrl+W" />
-            </MenuItem>
+          <!--  </MenuItem> -->
 
             <!--Edit menu bar: find, replace-->
             <MenuItem Header="Edit">
