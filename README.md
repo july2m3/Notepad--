@@ -1,6 +1,8 @@
 # Notepad--
 Notepad-- a dark themed Win Notepad using C# and WPF.
-It works! Basic text editing, new file, file open and file save work. :)
+It works! 
+Basic text editing.
+As well as opening and saving .txt files :)
  To Do:
  *  Add hotkeys (file new, open, save, exit)
  *  Basic Find ability
